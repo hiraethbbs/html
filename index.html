@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Renegade BBS</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap3/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+<link href="bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,18 +18,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href='https://fonts.googleapis.com/css?family=Catamaran:400,100,200,300,500,700,600,800,900|Poller+One' rel='stylesheet' type='text/css' />
+  <style type="text/css">
+  #nav-container #nav-col { padding:0; }
+  </style>
   </head>
   <body>
-    <div class="container">
-	<div class="row">
-		<div class="col-md-5">
-			<div class="page-header">
-				<h1>
-					Renegade BBS
-				</h1>
-			</div>
-		</div>
-		<div class="col-md-7">
+    <div id="nav-container" class="container-fluid">
+
+  <div class="row">
+		<div class="col-md-12" id="nav-col">
 			<nav class="navbar navbar-inverse" role="navigation">
 				<div class="navbar-header">
 
@@ -99,13 +97,26 @@
 			</nav>
 		</div>
 	</div>
+</div><!-- Container-fluid -->
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>
+					Renegade BBS
+				</h1>
+			</div>
+		</div>
+  </div>
+
 	<div class="row">
 		<div class="col-md-12">
 			<h3>
-				h3. Lorem ipsum dolor sit amet.
+				Origin
 			</h3>
 			<p class="lead">
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+				Renegade is an open source (&#x2184;) bulletin board system (BBS) written for IBM PC-compatible computers running MS-DOS that gained popularity among hobbyist BBSes in the early to mid 1990s. It was originally written by <strong>Cott Lang</strong> in Pascal, based on the source code of <strong>Telegard</strong>, which was in turn based on the earlier <strong>WWIV</strong>.
 			</p>
 		</div>
 	</div>
@@ -187,7 +198,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap3/dist/js/bootstrap.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
 
